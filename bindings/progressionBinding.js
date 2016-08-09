@@ -4,7 +4,7 @@
  **/
  ko.bindingHandlers.progression = { 
 	init: function(element, valueAccessor) { 
-			var options = valueAccessor() || {}; 
-			$(element).progression(options); 
-		  } 
+		var options = valueAccessor() || {}; 
+		$(element).progression(options); 
+	} 
 };
